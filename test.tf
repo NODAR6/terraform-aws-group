@@ -10,8 +10,7 @@ resource "aws_autoscaling_group" "autoscale" {
   health_check_type     = "EC2"
   # termination_policies  = ["OldestInstance"]
   # vpc_zone_identifier   = ["subnet-12345678"]
-  key_name= "local"
-  instance_type = "t2.micro"
+
 
   
 }
