@@ -6,7 +6,7 @@ resource "aws_launch_configuration" "example" {
 
 resource "aws_autoscaling_group" "instance" {
   name                  = "nodar"  
-  availability_zones    = ["us-east-1"]
+  availability_zones    = ["us-east-1a"]
   desired_capacity      = 3
   max_size              = 6
   min_size              = 3
